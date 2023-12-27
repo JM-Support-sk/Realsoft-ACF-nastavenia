@@ -1,0 +1,11 @@
+{
+    "import_id": "testImport",
+    "deleted": 0,
+    "full_name": "Testovac\u00ed Makl\u00e9r",
+    "phone_work": "0912345678",
+    "email_work": "mail@mail.mm",
+    "image": {
+        "url": "https:\/\/admin.realsoft.sk\/users-photos\/3325.jpg",
+        "changed": false
+    }
+}
