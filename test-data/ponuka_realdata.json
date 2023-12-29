@@ -1,0 +1,32 @@
+{
+    "import_id": "testImpot",
+    "deleted": 0,
+    "action": 1,
+    "category": 4,
+    "subcategory": 401,
+    "ownership": 1,
+    "price": 569,
+    "balconies_count": 22,
+    "state_id": 1,
+    "county_id": 0,
+    "district_id": 0,
+    "region_id": 0,
+    "street_id": 0,
+    "price_unit": 1,
+    "price_currency": 1,
+    "usable_area": 24,
+    "agent_id": "testImport",
+    "images": [
+        {
+            "url": "https:\/\/admin.realsoft.sk\/objects-images\/784\/784691\/784691_1.jpg",
+            "changed": true
+        },
+        {
+            "url": "https:\/\/admin.realsoft.sk\/images\/new\/logo-realsoft.jpg",
+            "changed": true
+        }
+    ],
+    "title": "Nadpis",
+    "description": "Popis",
+    "description_non_stripped": "Krásny slnečný byt v Bratislave v časti Nové mesto. Byt sa nachádza v novostavbe na druhom poschodí. Rozloha bytu je veľmi priestranná s rozlohou 89 m2. K bytu je aj jedno parkovacie miesto v podzemnej garáži chránenej kamerovým systémom." 
+}

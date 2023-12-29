@@ -66,6 +66,11 @@ Hierarchický číselník
 
 
 
+## Identifikácia ponuky
+
+vždy rs_id + rs_object_id
+
+product:  rs_object_id = SKU (ak nie je špecifikované inak)
 
 
 
