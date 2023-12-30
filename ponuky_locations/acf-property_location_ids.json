@@ -1,10 +1,10 @@
 [
     {
-        "key": "group_659098d116dba",
+        "key": "group_property_location",
         "title": "RS location (property_location)",
         "fields": [
             {
-                "key": "field_659098d250bcc",
+                "key": "field_rs_id",
                 "label": "RS ID",
                 "name": "rs_id",
                 "aria-label": "",
@@ -24,7 +24,7 @@
                 "append": ""
             },
             {
-                "key": "field_659098ea50bcd",
+                "key": "field_rs_key",
                 "label": "RS Key",
                 "name": "rs_key",
                 "aria-label": "",
@@ -44,7 +44,7 @@
                 "append": ""
             },
             {
-                "key": "field_6590990e50bce",
+                "key": "field_rs_term",
                 "label": "RS Term",
                 "name": "rs_term",
                 "aria-label": "",
