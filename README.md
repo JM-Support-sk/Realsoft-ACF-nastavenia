@@ -46,7 +46,7 @@ Neštandardné riešenie (ála Houzez):
 
 Iné riešenie:
 
-- údaje o lokalite sú custom fields, bez hierarchie... 
+- údaje o lokalite sú custom fields, bez hierarchie... (wre pro plugin)
 - nezávislé taxonómie: property_city a property_county_state (wpresidence)
 - prepojené taxonómie: property_city a property_area (wpresidence)
 - bez lokalít, len adresa (estatik)
@@ -67,7 +67,7 @@ Základné riešenie:
 - taxonómia property_status (propertya)
 - taxonómia property-status (essential real estate)
 
-
+Lepší preklad: účel (wre pro plugin)
 
 Iné riešenie: 
 - custom field s definovanými možnosťami (wpcasa)
