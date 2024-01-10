@@ -28,6 +28,22 @@ Testovacie údaje:
 
 Číselníky z externého zdroja, údaje nie sú súčasťou exportu
 
+## Typ nehnuteľností
+
+(action podľa RS: Predaj, Prenájom...) 
+
+Základné riešenie:
+
+- taxonómia property_status prekladá sa ako transakcia alebo typ ak type je druh (nonsens) - houzez
+- taxonómia property_action_category (wpresidence)
+- taxonómia property_status (propertya)
+- taxonómia property-status (essential real estate)
+
+Lepší preklad: účel (wre pro plugin)
+
+Iné riešenie: 
+- custom field s definovanými možnosťami (wpcasa)
+
 
 ## Lokality
 
@@ -56,21 +72,7 @@ Iné riešenie:
 Potrebujete prevodový číselník, viď: https://pixeler.sk/prepojenie-systemu-realsoft-s-wordpress-webstrankou
 
 
-## Typ nehnuteľností
 
-(action podľa RS: Predaj, Prenájom...) 
-
-Základné riešenie:
-
-- taxonómia property_status prekladá sa ako transakcia alebo typ ak type je druh (nonsens) - houzez
-- taxonómia property_action_category (wpresidence)
-- taxonómia property_status (propertya)
-- taxonómia property-status (essential real estate)
-
-Lepší preklad: účel (wre pro plugin)
-
-Iné riešenie: 
-- custom field s definovanými možnosťami (wpcasa)
 
 
 ## Kategórie nehnuteľností  / Druh

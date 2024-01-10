@@ -1,5 +1,6 @@
 {
-    "import_id": "testImpot",
+    "import_id": "testImport",
+    "object_id": "999999",
     "deleted": 0,
     "action": 1,
     "category": 4,
