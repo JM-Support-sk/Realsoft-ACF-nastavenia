@@ -1,0 +1,121 @@
+{
+    "meta_boxes": {
+        "meta-1": {
+            "args": {
+                "object_type": "user",
+                "allowed_tax": [],
+                "allowed_post_type": [],
+                "allowed_posts": [],
+                "excluded_posts": [],
+                "name": "User info",
+                "allowed_user_screens": "edit-profile",
+                "show_edit_link": true,
+                "active_conditions": []
+            },
+            "meta_fields": [
+                {
+                    "title": "Fotka",
+                    "name": "image",
+                    "object_type": "field",
+                    "width": "25%",
+                    "options": [],
+                    "type": "media",
+                    "isNested": false,
+                    "conditional_logic": true,
+                    "id": 4824,
+                    "options_source": "manual"
+                },
+                {
+                    "title": "Cel\u00e9 meno",
+                    "name": "full_name",
+                    "object_type": "field",
+                    "width": "25%",
+                    "options": [],
+                    "type": "text",
+                    "isNested": false,
+                    "is_required": true,
+                    "id": 9003,
+                    "options_source": "manual"
+                },
+                {
+                    "title": "Phone",
+                    "name": "phone_work",
+                    "object_type": "field",
+                    "width": "25%",
+                    "options": [],
+                    "type": "text",
+                    "isNested": false,
+                    "is_required": true,
+                    "id": 8672,
+                    "options_source": "manual"
+                },
+                {
+                    "title": "Email",
+                    "name": "email_work",
+                    "object_type": "field",
+                    "options": [],
+                    "type": "text",
+                    "width": "25%",
+                    "is_required": true,
+                    "isNested": false,
+                    "id": 3008,
+                    "options_source": "manual"
+                },
+                {
+                    "title": "Sora",
+                    "name": "sora",
+                    "object_type": "field",
+                    "width": "25%",
+                    "options": [
+                        {
+                            "key": "1",
+                            "value": "\u010clen Sora",
+                            "collapsed": false,
+                            "id": 9900
+                        },
+                        {
+                            "key": "0",
+                            "value": "NIe je \u010dlen Sora",
+                            "collapsed": false,
+                            "id": 9347,
+                            "is_checked": true
+                        }
+                    ],
+                    "repeater-fields": [],
+                    "type": "radio",
+                    "id": 9153,
+                    "isNested": false,
+                    "options_source": "manual",
+                    "check_radio_layout": "vertical"
+                },
+                {
+                    "title": "Narks",
+                    "name": "nark",
+                    "object_type": "field",
+                    "width": "25%",
+                    "options": [
+                        {
+                            "key": "1",
+                            "value": "\u010clen Narks",
+                            "collapsed": false,
+                            "id": 4480
+                        },
+                        {
+                            "key": "0",
+                            "value": "Nie je \u010dlen Narks",
+                            "collapsed": false,
+                            "id": 5819,
+                            "is_checked": true
+                        }
+                    ],
+                    "repeater-fields": [],
+                    "type": "radio",
+                    "id": 5921,
+                    "isNested": false,
+                    "options_source": "manual"
+                }
+            ],
+            "id": "meta-1"
+        }
+    }
+}
