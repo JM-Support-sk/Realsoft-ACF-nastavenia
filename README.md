@@ -17,6 +17,9 @@ V prípade importu:
 
 - v prípade custom webu by to malo byť zapracované vopred pre importom. Ak to nie je ani po upozornení, použije sa free verzia pre import (user)
 
+- pridané nastavenie pre jet engine od crocoblock 
+
+
 Poznámka:
 - vo free verzii user sa páruje podľa emailu, nie ID
 
