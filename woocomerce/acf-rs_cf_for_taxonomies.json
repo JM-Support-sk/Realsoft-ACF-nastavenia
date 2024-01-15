@@ -85,6 +85,20 @@
                     "operator": "==",
                     "value": "product_tag"
                 }
+            ],
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "property_status"
+                }
+            ],
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "property_type"
+                }
             ]
         ],
         "menu_order": 0,
