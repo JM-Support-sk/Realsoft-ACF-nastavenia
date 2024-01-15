@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+crocoblock/
+
+
 # User-specific files
 *.rsuser
 *.suo
