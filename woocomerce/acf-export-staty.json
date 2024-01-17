@@ -1,0 +1,76 @@
+[
+    {
+        "key": "taxonomy_65a646306a170",
+        "title": "RS Štáty",
+        "menu_order": 0,
+        "active": true,
+        "taxonomy": "property_country",
+        "object_type": [
+            "product"
+        ],
+        "advanced_configuration": 0,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "RS Štáty",
+            "singular_name": "RS Štát",
+            "menu_name": "Štát",
+            "all_items": "All Štát",
+            "edit_item": "Edit property_country",
+            "view_item": "View property_country",
+            "update_item": "Update property_country",
+            "add_new_item": "Add New property_country",
+            "new_item_name": "New property_country Name",
+            "search_items": "Search Štát",
+            "popular_items": "Popular Štát",
+            "separate_items_with_commas": "Separate štát with commas",
+            "add_or_remove_items": "Add or remove štát",
+            "choose_from_most_used": "Choose from the most used štát",
+            "most_used": "",
+            "not_found": "No štát found",
+            "no_terms": "No štát",
+            "name_field_description": "",
+            "slug_field_description": "",
+            "desc_field_description": "",
+            "items_list_navigation": "Štát list navigation",
+            "items_list": "Štát list",
+            "back_to_items": "← Go to štát",
+            "item_link": "property_country Link",
+            "item_link_description": "A link to a property_country"
+        },
+        "description": "",
+        "capabilities": {
+            "manage_terms": "manage_categories",
+            "edit_terms": "manage_categories",
+            "delete_terms": "manage_categories",
+            "assign_terms": "edit_posts"
+        },
+        "public": 1,
+        "publicly_queryable": 1,
+        "hierarchical": 0,
+        "show_ui": 1,
+        "show_in_menu": 1,
+        "show_in_nav_menus": 1,
+        "show_in_rest": 1,
+        "rest_base": "",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Terms_Controller",
+        "show_tagcloud": 1,
+        "show_in_quick_edit": 1,
+        "show_admin_column": 0,
+        "rewrite": {
+            "permalink_rewrite": "taxonomy_key",
+            "with_front": "1",
+            "rewrite_hierarchical": "0"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "default_term": {
+            "default_term_enabled": "0"
+        },
+        "sort": 1,
+        "meta_box": "default",
+        "meta_box_cb": "",
+        "meta_box_sanitize_cb": ""
+    }
+]

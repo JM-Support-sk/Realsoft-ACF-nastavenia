@@ -1,10 +1,30 @@
 [
     {
-        "key": "group_property_location",
-        "title": "RS ID\/KEY\/Term pre taxonómie",
+        "key": "group_65a62f0ee6b38",
+        "title": "RS polia",
         "fields": [
             {
-                "key": "field_rs_id",
+                "key": "field_65a62f0f0610a",
+                "label": "RS OBJECT ID",
+                "name": "rs_object_id",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65a6314fee0ba",
                 "label": "RS ID",
                 "name": "rs_id",
                 "aria-label": "",
@@ -24,32 +44,12 @@
                 "append": ""
             },
             {
-                "key": "field_rs_key",
-                "label": "RS Key",
-                "name": "rs_key",
+                "key": "field_65a647d8064ed",
+                "label": "RS Internal ID",
+                "name": "rs_internal_id",
                 "aria-label": "",
                 "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "default_value": "",
-                "maxlength": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": ""
-            },
-            {
-                "key": "field_rs_term",
-                "label": "RS Term",
-                "name": "rs_term",
-                "aria-label": "",
-                "type": "text",
-                "instructions": "",
+                "instructions": "ID priamo v Realsofte, ID na web m prefix, vyuzitie ak treba priamo otvorit edit okno v Realsofte",
                 "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
@@ -67,58 +67,9 @@
         "location": [
             [
                 {
-                    "param": "taxonomy",
+                    "param": "post_type",
                     "operator": "==",
-                    "value": "property_location"
-                }
-            ],
-            [
-                {
-                    "param": "taxonomy",
-                    "operator": "==",
-                    "value": "product_cat"
-                }
-            ],
-            [
-                {
-                    "param": "taxonomy",
-                    "operator": "==",
-                    "value": "product_tag"
-                }
-            ],
-            [
-                {
-                    "param": "taxonomy",
-                    "operator": "==",
-                    "value": "property_purpose"
-                }
-            ],
-            [
-                {
-                    "param": "taxonomy",
-                    "operator": "==",
-                    "value": "property_feature"
-                }
-            ],
-            [
-                {
-                    "param": "taxonomy",
-                    "operator": "==",
-                    "value": "property_advantage"
-                }
-            ],
-            [
-                {
-                    "param": "taxonomy",
-                    "operator": "==",
-                    "value": "property_country"
-                }
-            ],
-            [
-                {
-                    "param": "taxonomy",
-                    "operator": "==",
-                    "value": "property_status"
+                    "value": "product"
                 }
             ]
         ],

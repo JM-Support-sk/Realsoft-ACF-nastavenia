@@ -1,0 +1,76 @@
+[
+    {
+        "key": "taxonomy_property_location",
+        "title": "RS Lokality",
+        "menu_order": 0,
+        "active": true,
+        "taxonomy": "property_location",
+        "object_type": [
+            "product"
+        ],
+        "advanced_configuration": 0,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "RS Lokality",
+            "singular_name": "RS  Lokalita",
+            "menu_name": "Lokality",
+            "all_items": "Všetky lokality",
+            "edit_item": "Upraviť lokalitu",
+            "view_item": "Zobraziť lokalitu",
+            "update_item": "Aktualizovať lokalitu",
+            "add_new_item": "Pridať novú lokalitu",
+            "new_item_name": "Názov novej lokality",
+            "parent_item": "Nadradená lokalita",
+            "parent_item_colon": "Nadradená lokalita:",
+            "search_items": "Prehľadať lokality",
+            "most_used": "",
+            "not_found": "Nenájdené žiadne lokality",
+            "no_terms": "Žiadna lokalita",
+            "name_field_description": "",
+            "slug_field_description": "",
+            "parent_field_description": "",
+            "desc_field_description": "",
+            "filter_by_item": "Filtrovať podľa lokality",
+            "items_list_navigation": "Zoznam lokalít navigation",
+            "items_list": "Zoznam lokalít",
+            "back_to_items": "← Spať na lokality",
+            "item_link": "Link na lokalitu",
+            "item_link_description": "Link k lokalite"
+        },
+        "description": "",
+        "capabilities": {
+            "manage_terms": "manage_categories",
+            "edit_terms": "manage_categories",
+            "delete_terms": "manage_categories",
+            "assign_terms": "edit_posts"
+        },
+        "public": 1,
+        "publicly_queryable": 1,
+        "hierarchical": 1,
+        "show_ui": 1,
+        "show_in_menu": 1,
+        "show_in_nav_menus": 1,
+        "show_in_rest": 1,
+        "rest_base": "",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Terms_Controller",
+        "show_tagcloud": 1,
+        "show_in_quick_edit": 1,
+        "show_admin_column": 0,
+        "rewrite": {
+            "permalink_rewrite": "taxonomy_key",
+            "with_front": "1",
+            "rewrite_hierarchical": "0"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "default_term": {
+            "default_term_enabled": "0"
+        },
+        "sort": 1,
+        "meta_box": "default",
+        "meta_box_cb": "",
+        "meta_box_sanitize_cb": ""
+    }
+]
